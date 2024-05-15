@@ -33,3 +33,8 @@ const laura = {
 }
 console.log(laura);
 console.log(laura.alder);
+console.log(laura.navn);
+
+let nummerA = 10;
+let nummerB = 32;
+console.log(nummerA+nummerB);
