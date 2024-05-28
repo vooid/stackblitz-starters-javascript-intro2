@@ -1,16 +1,17 @@
 // TODO list
-
+console.log("Hello there")
 const tL = []
-const taskForm = document.querySelector("")
+//const taskForm = document.querySelector("")
 var indeks = 0
 function addTask(tittel, prioritet){
     let task = {
-        taskIndex: index,
+        taskIndex: indeks,
         taskTittel: tittel,
         taskPri: prioritet,
+        taskStatus: false,
     }
-    tL + task; 
-    index++;
+    tL.push(task); 
+    indeks++;
 
 }
 function getTasks(oppgave){
@@ -25,9 +26,14 @@ function editTask(oppgave){
 function sortTask(oppgaveliste){
 
 }
+function listTask(){
+
+}
 addTask("oppvask", 5)
 addTask("klesvask", 4)
 addTask("BG3", 1)
-
-for(let b = 0; b < tL.length; b++)
-console.log(tL[b].tittel)
+console.log(tL[1].prioritet)
+for(let b = 0; b < tL.length; b++){
+    console.log(tL[b].taskTittel)
+//    console.log(tL[b])
+}
