@@ -26,7 +26,7 @@ function editTask(oppgave){
 function sortTask(oppgaveliste){
 
 }
-function listTask(){
+function a(){
     console.log(tL);
 }
 addTask("oppvask", 5)
